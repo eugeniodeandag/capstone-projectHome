@@ -1,5 +1,12 @@
 # TI2006B persistent project repository
 
+## Reto actual: validación de descargas de agua
+
+La planeación de la Actividad 2.13 para el reto de Coca-Cola FEMSA se encuentra en [la documentación del reto de agua](docs/actividad-2-13-agua.md), junto con el [diagrama de arquitectura propuesto](docs/arquitectura-agua.svg). Los ejemplos de Pokémon de este repositorio son material didáctico anterior, no el alcance del reto actual.
+
+El repositorio contiene documentación y código; los archivos corporativos permanecen en el almacenamiento autorizado. La solución está en diseño y las evidencias de Lucidchart y Kanban se completarán antes de entregar.
+
+
 License: Original educational content in this example repository is licensed
 under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 Code, third-party datasets, APIs, trademarks, and quoted material retain their
