@@ -4,7 +4,7 @@
 
 La planeación de la Actividad 2.13 para el reto de Coca-Cola FEMSA se encuentra en [la documentación del reto de agua](docs/actividad-2-13-agua.md), junto con el [diagrama de arquitectura propuesto](docs/arquitectura-agua.svg). Los ejemplos de Pokémon de este repositorio son material didáctico anterior, no el alcance del reto actual.
 
-El repositorio contiene documentación y código; los archivos corporativos permanecen en el almacenamiento autorizado. La solución está en diseño y las evidencias de Lucidchart y Kanban se completarán antes de entregar.
+El repositorio contiene documentación y código; los archivos corporativos permanecen en el almacenamiento autorizado. La solución está en diseño. El [reporte con capturas de Jira](https://docs.google.com/document/d/1NvBfUkq8SpPUJWpvSrvxvgBVL7wLOW52pmHf7xZKTec/edit) y el [diagrama editable de Lucidchart](https://lucid.app/lucidchart/0be30779-a25f-469b-8a4b-9fd18e1c0e57/edit) ya están disponibles. Los hitos del 18, 19 y 20 de noviembre de 2026 fueron aprobados por el equipo; Javier compartirá el diagrama con el profesor.
 
 
 License: Original educational content in this example repository is licensed
