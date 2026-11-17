@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="820" viewBox="0 0 1380 820">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#123e61"/></marker></defs>
+<rect width="1380" height="820" fill="white"/>
+<text x="35" y="35" font-family="Arial" font-size="24" font-weight="bold" fill="#123e61">Reto de agua · arquitectura BI propuesta</text>
+<rect x="35" y="65" width="360" height="95" rx="9" fill="#edf4f7" stroke="#123e61"/>
+<text x="49" y="91" font-family="Arial" font-size="17" font-weight="bold" fill="#123e61">Fuentes del piloto</text>
+<text x="49" y="115" font-family="Arial" font-size="15">Bitácora descargas 2026.xlsx</text>
+<text x="49" y="136" font-family="Arial" font-size="15">ReportingFactory Ene26 - Oct26.xlsx</text>
+<rect x="510" y="65" width="355" height="95" rx="9" fill="#edf4f7" stroke="#123e61"/>
+<text x="524" y="91" font-family="Arial" font-size="17" font-weight="bold" fill="#123e61">Ingesta batch · Python</text>
+<text x="524" y="115" font-family="Arial" font-size="15">Carpeta autorizada / SharePoint previsto</text>
+<text x="524" y="136" font-family="Arial" font-size="15">Hash, versión, inventario de hojas</text>
+<rect x="980" y="65" width="355" height="95" rx="9" fill="#edf4f7" stroke="#123e61"/>
+<text x="994" y="91" font-family="Arial" font-size="17" font-weight="bold" fill="#123e61">Bronze · Delta Lake</text>
+<text x="994" y="115" font-family="Arial" font-size="15">Copia original + metadatos de carga</text>
+<text x="994" y="136" font-family="Arial" font-size="15">Acceso restringido y trazabilidad</text>
+<rect x="980" y="270" width="355" height="125" rx="9" fill="#edf4f7" stroke="#123e61"/>
+<text x="994" y="296" font-family="Arial" font-size="17" font-weight="bold" fill="#123e61">Silver · Databricks + Python</text>
+<text x="994" y="320" font-family="Arial" font-size="15">Planta-fecha-tipo; normalizar formatos</text>
+<text x="994" y="341" font-family="Arial" font-size="15">Unidades confirmadas → m³</text>
+<text x="994" y="362" font-family="Arial" font-size="15">Cuarentena: faltantes, claves ambiguas</text>
+<rect x="510" y="270" width="355" height="125" rx="9" fill="#edf4f7" stroke="#123e61"/>
+<text x="524" y="296" font-family="Arial" font-size="17" font-weight="bold" fill="#123e61">Gold · Delta + reglas</text>
+<text x="524" y="320" font-family="Arial" font-size="15">Agregar volúmenes diarios por mes</text>
+<text x="524" y="341" font-family="Arial" font-size="15">Conciliar ambas fuentes; no subtotales</text>
+<text x="524" y="362" font-family="Arial" font-size="15">Alertas con regla, versión y motivo</text>
+<rect x="35" y="270" width="360" height="125" rx="9" fill="#edf4f7" stroke="#123e61"/>
+<text x="49" y="296" font-family="Arial" font-size="17" font-weight="bold" fill="#123e61">Modelo semántico · Power BI</text>
+<text x="49" y="320" font-family="Arial" font-size="15">Hechos: lecturas, conciliación y alertas</text>
+<text x="49" y="341" font-family="Arial" font-size="15">Dimensiones: planta, fecha, tipo y regla</text>
+<text x="49" y="362" font-family="Arial" font-size="15">Medidas y denominadores consistentes</text>
+<rect x="35" y="510" width="360" height="105" rx="9" fill="#edf4f7" stroke="#123e61"/>
+<text x="49" y="536" font-family="Arial" font-size="17" font-weight="bold" fill="#123e61">Dashboard · Power BI</text>
+<text x="49" y="560" font-family="Arial" font-size="15">Cobertura, coincidencia y alertas</text>
+<text x="49" y="581" font-family="Arial" font-size="15">Filtros y detalle con origen verificable</text>
+<rect x="510" y="510" width="355" height="105" rx="9" fill="#edf4f7" stroke="#123e61"/>
+<text x="524" y="536" font-family="Arial" font-size="17" font-weight="bold" fill="#123e61">Auditoría de Sustentabilidad</text>
+<text x="524" y="560" font-family="Arial" font-size="15">Revisar, justificar y priorizar casos</text>
+<text x="524" y="581" font-family="Arial" font-size="15">Conclusión humana; sin dictamen automático</text>
+<line x1="395" y1="112" x2="510" y2="112" stroke="#123e61" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="423" y="101" font-family="Arial" font-size="14" fill="#123e61">XLSX</text>
+<line x1="865" y1="112" x2="980" y2="112" stroke="#123e61" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="905" y="101" font-family="Arial" font-size="14" fill="#123e61">raw</text>
+<line x1="1155" y1="160" x2="1155" y2="270" stroke="#123e61" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1170" y="215" font-family="Arial" font-size="14" fill="#123e61">tablas + origen</text>
+<line x1="980" y1="330" x2="865" y2="330" stroke="#123e61" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="875" y="316" font-family="Arial" font-size="14" fill="#123e61">m³ / claves</text>
+<line x1="510" y1="330" x2="395" y2="330" stroke="#123e61" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="406" y="316" font-family="Arial" font-size="14" fill="#123e61">hechos Gold</text>
+<line x1="215" y1="395" x2="215" y2="510" stroke="#123e61" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="230" y="455" font-family="Arial" font-size="14" fill="#123e61">medidas</text>
+<line x1="395" y1="560" x2="510" y2="560" stroke="#123e61" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="415" y="546" font-family="Arial" font-size="14" fill="#123e61">semáforo</text>
+<rect x="35" y="665" width="1300" height="115" rx="8" fill="#f4f4f4" stroke="#a0aab0"/>
+<text x="55" y="690" font-family="Arial" font-size="18" font-weight="bold">Controles transversales</text>
+<text x="55" y="715" font-family="Arial" font-size="16">Mínimo privilegio / Unity Catalog previsto · credenciales fuera del código · datos corporativos fuera de GitHub público.</text>
+<text x="55" y="739" font-family="Arial" font-size="16">Calidad: unidades, calendario, claves, duplicados, periodos completos; cuarentena visible; comparación reproducible.</text>
+<text x="55" y="763" font-family="Arial" font-size="16">Propuesta de diseño: falta replicar o incorporar en Lucidchart y guardar su evidencia real.</text>
+</svg>
