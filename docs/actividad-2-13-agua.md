@@ -34,43 +34,43 @@ Semáforo: verde sin alertas en controles completos; amarillo para patrones que 
 
 ### KAN-6 — Ingestar bitácora de descargas y Reporting Factory
 
-Responsable: Santiago Valencia Nájera. Fecha propuesta: 2026-11-18. Dependencia: Ninguna.
+Responsable: Santiago Valencia Nájera. Fecha acordada: 2026-11-18. Dependencia: Ninguna.
 
 Aceptación: Registrar ambos XLSX, versión/fecha y SHA256; verificar hash de bitácora contra 66979994cacb55107c946b818f0e512fd744e5d7341d42be177727f1e1f6471d; inventariar hojas y conteos; conservar originales restringidos. No subir datos del socio al repositorio público.
 
 ### KAN-7 — Explorar cobertura, unidades y calidad del agua
 
-Responsable: Alejandro Vázquez Treviño. Fecha propuesta: 2026-11-18. Dependencia: KAN-6.
+Responsable: Alejandro Vázquez Treviño. Fecha acordada: 2026-11-18. Dependencia: KAN-6.
 
-Aceptación: Documentar estructura de hojas, plantas, periodos, unidades, faltantes, duplicados, ceros y lecturas repetidas; distinguir lectura acumulada de volumen diario; validar catálogo de 22 plantas sin contar totales consolidados como planta.
+Aceptación: Documentar estructura de hojas, plantas, periodos, unidades, faltantes, duplicados, ceros y lecturas repetidas; distinguir lectura acumulada de volumen diario; confirmar la discrepancia de alcance 22/23 plantas y validar el catálogo sin contar totales consolidados como planta.
 
 ### KAN-8 — Preparar y homologar fuentes de descargas de agua
 
-Responsable: Eugenio De Anda Garza. Fecha propuesta: 2026-11-19. Dependencia: KAN-7.
+Responsable: Eugenio De Anda Garza. Fecha acordada: 2026-11-19. Dependencia: KAN-7.
 
 Aceptación: Normalizar planta-fecha-tipo de descarga; documentar conversión de unidades confirmada y catálogo de alias; conservar valor original y trazabilidad hoja/celda; excluir subtotales del detalle y días inexistentes; separar faltante, cero y no aplica; no corregir anomalías sin evidencia.
 
 ### KAN-9 — Modelar conciliación y reglas de alertas
 
-Responsable: Javier Alejandro Chicuate Mendoza. Fecha propuesta: 2026-11-20. Dependencia: KAN-8.
+Responsable: Javier Alejandro Chicuate Mendoza. Fecha acordada: 2026-11-20. Dependencia: KAN-8.
 
 Aceptación: Construir modelo diario y conciliación planta-mes-tipo; comparar solo periodos completos con unidades y perímetro homologados; parametrizar tolerancia absoluta/relativa, ceros, repeticiones y picos; registrar regla, versión y motivo; bloquear comparaciones ambiguas y excluirlas del KPI de coincidencia; no emitir dictamen de cumplimiento.
 
 ### KAN-10 — Diseñar dashboard de auditoría de descargas
 
-Responsable: Alejandro Vázquez Treviño. Fecha propuesta: 2026-11-20. Dependencia: KAN-9.
+Responsable: Alejandro Vázquez Treviño. Fecha acordada: 2026-11-20. Dependencia: KAN-9.
 
 Aceptación: Mostrar cobertura de conciliación, coincidencia y registros con alertas; semáforo y filtros planta/mes/tipo/regla; detalle con valores de ambas fuentes y origen; mostrar no evaluable cuando falte evidencia; totales reconciliados con Gold y medidas documentadas.
 
 ### KAN-11 — Validar conciliación, KPIs y arquitectura de agua
 
-Responsable: Javier Alejandro Chicuate Mendoza. Fecha propuesta: 2026-11-20. Dependencia: KAN-9 y KAN-10.
+Responsable: Javier Alejandro Chicuate Mendoza. Fecha acordada: 2026-11-20. Dependencia: KAN-9 y KAN-10.
 
 Aceptación: Probar coincidencia, discrepancia, límites de tolerancia, unidad ambigua, cero válido, faltante, duplicado, reinicio de medidor y periodo incompleto; recalcular KPIs manualmente; revisión cruzada por Eugenio; conservar evidencia y preparar defensa de cada miembro. Aceptación del socio pendiente.
 
 ## Hitos y dependencias
 
-18 nov: ingesta/perfilado. 19 nov: preparación. 20 nov: reglas, prototipo y validación. Fechas tentativas; confirmar fecha Canvas y acuerdo del equipo. Dependencias: KAN-6 → KAN-7 → KAN-8 → KAN-9 → KAN-10 → KAN-11. Todas las tareas siguen por hacer. Revisión cruzada antes de cerrar cada entrega.
+18 nov: ingesta/perfilado. 19 nov: preparación. 20 nov: reglas, prototipo y validación. Hitos aprobados por el equipo el 17 de noviembre de 2026; no representan la fecha de entrega en Canvas. Dependencias: KAN-6 → KAN-7 → KAN-8 → KAN-9 → KAN-10 → KAN-11. Todas las tareas siguen por hacer. Revisión cruzada antes de cerrar cada entrega.
 
 ## Validación planeada
 
@@ -82,7 +82,7 @@ Santiago: ingesta y conservación de originales. Alejandro: perfilado y mostrar 
 
 ## Uso de IA
 
-Codex apoyó planeación, alternativas y redacción. Incorporado al diseño: homologar grano planta-mes-tipo y separar capas para trazabilidad. Revisado: todos los ceros como errores; se sustituyó por alertas contextuales. Se descartó el borrador de fraude al confirmar el reto real. Decisiones pendientes de revisión del equipo y aceptación del socio.
+Codex apoyó planeación, alternativas y redacción. Incorporado al diseño: homologar grano planta-mes-tipo y separar capas para trazabilidad. Revisado: todos los ceros como errores; se sustituyó por alertas contextuales. Se descartó el borrador de fraude al confirmar el reto real. Diseño propuesto para implementación; las tolerancias y el alcance operativo requieren validación del socio.
 
 ## Recursos
 
@@ -90,6 +90,10 @@ Codex apoyó planeación, alternativas y redacción. Incorporado al diseño: hom
 - Jira: https://tec-083f9284.atlassian.net/jira/software/projects/KAN/boards/1
 - Slack: https://app.slack.com/client/T0CFRNMP3EY/C0CF6RSDX4P
 
-## Evidencia pendiente de entrega
+## Evidencias y acceso
 
-Falta incorporar el diagrama en Lucidchart y obtener enlace/exportación reales. Falta captura actualizada de Jira. Verificar acceso del profesor y confirmar alcance, unidades, tolerancias e hitos. No se ha entregado en Canvas. Esta documentación describe diseño propuesto, no una solución ya implementada.
+- Reporte y capturas reales de Jira: https://docs.google.com/document/d/1NvBfUkq8SpPUJWpvSrvxvgBVL7wLOW52pmHf7xZKTec/edit
+- Diagrama editable realizado en Lucidchart: https://lucid.app/lucidchart/0be30779-a25f-469b-8a4b-9fd18e1c0e57/edit
+- Las dependencias KAN-6 → KAN-7 → KAN-8 → KAN-9 → KAN-10 → KAN-11 y KAN-9 → KAN-11 están vinculadas en Jira.
+
+Javier compartirá el diagrama con el profesor. El reporte permite lectura por enlace y el repositorio es público. Confirmar con el socio el alcance 22/23 plantas, unidades y tolerancias antes de ejecutar comparaciones. No se ha entregado en Canvas. Esta documentación describe diseño propuesto, no una solución ya implementada.
